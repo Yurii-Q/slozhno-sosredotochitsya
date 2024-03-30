@@ -13,7 +13,6 @@
 
 .header {
   position: relative;
-  height: 100%;
   padding-block-end: 56px;
   margin-block-end: 10px;
 }
@@ -160,7 +159,6 @@
 
 .footer {
   position: relative;
-  height: 100%;
 }
 
 .footer__title {

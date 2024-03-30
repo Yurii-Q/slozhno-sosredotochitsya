@@ -21,6 +21,7 @@ body {
   font-size: 18px;
   font-weight: normal;
   line-height: 23.4px;
+  overflow: auto;
 }
 
 h1,
