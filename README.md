@@ -1,0 +1,1 @@
+https://github.com/Yurii-Q/slozhno-sosredotochitsya.git
