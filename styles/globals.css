@@ -17,11 +17,6 @@ body {
   max-inline-size: 1440px;
   margin: 0;
   padding: 0;
-  font-family: 'IBM Plex mono', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 23.4px;
-  overflow: auto;
 }
 
 h1,
@@ -51,8 +46,13 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  appearance: none;
   border: none;
-  outline: none;
+}
+
+button {
+  appearance: none;
+}
+
+a {
   text-decoration: none;
 }

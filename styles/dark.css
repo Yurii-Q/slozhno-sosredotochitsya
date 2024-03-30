@@ -9,18 +9,16 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --shadow-color: #FF0070;
   --accent-color: #FF0070;
   --title-color: #DB00FF;
   --subtitle-color: #000028;
   --main-text-color: #F1B2CE;
   --hover-color: #FF007066;
+  --bg-image: url(../images/cover-image-dark.png);
 
   color: var(--main-text-color);
-  background: url(../images/cover-image-dark.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: var(--bg-image);
 }
 
 .theme_dark .header::before,
@@ -37,25 +35,6 @@
   border-left: 1px solid var(--accent-color);
 }
 
-.theme_dark .header__theme-menu::before {
-  content: 'REC';
-  position: absolute;
-  right: 28px;
-  line-height: 25px;
-  color: var(--accent-color);
-}
-
-.theme_dark .header__theme-menu::after {
-  content: '';
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  background: var(--accent-color);
-  border-radius: 50%;
-  box-shadow: 0 0 4px 2px var(--accent-color);
-  margin: 8px 9px 9px 10px;
-}
-
 .theme_dark .header__theme-menu-button {
   color: var(--accent-color);
 }
@@ -64,7 +43,7 @@
   border-bottom: 1px solid var(--accent-color);
 }
 
-.theme_dark .header__theme-menu-button:disabled {
+.theme_dark .header__theme-menu-button.header__theme-menu-button_active {
   outline: 1px solid var(--accent-color);
 }
 
@@ -92,26 +71,6 @@
     border-left: 1px solid var(--accent-color);
   }
 
-  .header__theme-menu::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    width: 9px;
-    height: 9px;
-    background: var(--accent-color);
-    border-radius: 50%;
-    box-shadow: 0 0 4px 2px var(--accent-color);
-    margin: 8px 9px 9px 10px;
-  }
-
-  .header__theme-menu::before {
-    content: 'REC';
-    position: absolute;
-    right: 28px;
-    line-height: 25px;
-    color: var(--accent-color);
-  }
-
   .header__theme-menu-button {
     color: var(--accent-color);
   }
@@ -120,7 +79,7 @@
     border-bottom: 1px solid var(--accent-color);
   }
   
-  .header__theme-menu-button:disabled {
+  .header__theme-menu-button.header__theme-menu-button_active {
     outline: 1px solid var(--accent-color);
   }
 }
