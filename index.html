@@ -17,40 +17,38 @@
     <link rel="stylesheet" href="./styles/light.css">
   </head>
   <body class="page">
+    <span class="decorated-element" aria-hidden="true"></span>
     <header class="header decorated-zone">
-      <div class="header__top">
-        <span class="decorated-element" aria-hidden="true"></span>
-        <nav class="header__theme-menu">
-          <ul class="header__theme-menu-list">
-            <li class="header__theme-menu-item">
-              <button
-                class="header__theme-menu-button header__theme-menu-button_type_light"
-              >
-                День
-              </button>
-            </li>
-            <li class="header__theme-menu-item">
-              <button
-                class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-                disabled
-              >
-                Авто
-              </button>
-            </li>
-            <li class="header__theme-menu-item">
-              <button
-                class="header__theme-menu-button header__theme-menu-button_type_dark"
-              >
-                Неон
-              </button>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="header__theme-menu">
+        <ul class="header__theme-menu-list">
+          <li class="header__theme-menu-item">
+            <button
+              class="header__theme-menu-button header__theme-menu-button_type_light"
+            >
+              День
+            </button>
+          </li>
+          <li class="header__theme-menu-item">
+            <button
+              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+              disabled
+            >
+              Авто
+            </button>
+          </li>
+          <li class="header__theme-menu-item">
+            <button
+              class="header__theme-menu-button header__theme-menu-button_type_dark"
+            >
+              Неон
+            </button>
+          </li>
+        </ul>
+      </nav>
       <h1 class="header__title main-title">
         no focus
       </h1>
-      <div class="header__bottom">
+      <div class="header__description">
         <p class="header__text title-accent">
           Что делать, когда не можешь делать ничего
         </p>
@@ -195,7 +193,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer decorated-zone">
       <h2 class="footer__title main-title">
         focus
       </h2>
