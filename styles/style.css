@@ -315,6 +315,18 @@
     justify-content: center;
   }
 
+  .two-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .two-cols .content__paragraph {
+    grid-column: 2 / -1;
+  }
+
+  .two-cols .content__text {
+    grid-column: 2 / -1;
+  }
+
   .three-cols {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
